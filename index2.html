@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-67190694-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7/leaflet.css"/>
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+  <link rel="stylesheet" href="foundation/css/foundation.css" />
+  <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+  <script src="js/vendor/modernizr.js"></script>
+  <script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
+  <script src="/js/leaflet.ajax.min.js"></script>
+  <script src="main2.js"></script>
+</head>
+
+<body>
+
+
+<script>
+
+
+// When the form is touched, re-filter markers
+</script>
+  <!-- <div id="myModal" class="reveal-modal" data-reveal>
+    <h1 class="modal">What's the relationship between <span class="import-1">language communities</span> and corresponding <span class="import-2">restaurant cuisines?</span></h1>
+    <p>This project looks at restaurant locations taken from Yelp and langauge spoken in the home from the US Census to try to understand whether residents and businesses still follow the same clustering patterns of traditional ethnic enclaves.</p>
+    <a class="close-reveal-modal">&#215;</a>
+  </div> -->
+  <div class="fixed"> 
+ <!--    <nav class="top-bar" data-topbar role="navigation">
+      <div id="title">EatSpeak: Seattle</div>   
+      <div id="nav">
+      <!--      <button class="ethnicity" value="Vietnamese">Vietnamese</button>
+      <button class="ethnicity" value="Chinese">Chinese</button>
+      <button class="ethnicity" value="Japanese">Japanese</button>
+      <button class="ethnicity" value="Korean">Korean</button>
+      <button class="ethnicity" value="Mexican">Mexican</button>
+      <button class="ethnicity" value="African">African</button>
+      <button class="ethnicity" value="Russian">Russian</button>
+      <button class="ethnicity" value="Indian">Indian</button> -->
+     <!--  <button class="story" id="startHere" value="0">Overview</button>
+      <button class="story" id="microsoftCampus" value="4">Microsoft Campus</button>
+      <button class="story" id="internationalDistrict" value="2">International District</button>
+      <button class="story" id="rainierValley" value="3">Rainier Valley</button>
+      <button class="story" id="university" value="1">UW</button> -->
+      <!-- <form method="post">
+          <select id="dropdown" name="dropdown">
+            <option value="">Choose One</option>
+              <option value="Vietnamese">Vietnamese</option>
+              <option value="Chinese">Chinese</option>
+              <option value="Japanese">Japanese</option>
+              <option value="Korean">Korean</option>
+              <option value="Mexican">Mexican</option>
+              <option value="African">African</option>
+              <option value="Russian">Russian</option>
+              <option value="Indian">Indian</option>
+          </select>
+      </form>
+      </div>
+    </nav> 
+    <div id="microsoftCampus" class="info-pane">
+      <div class="close-div">
+        <a id="microsoftCampus" class="close-reveal-modal pane">×</a>
+      </div>
+          Microsoft moved to Redmond in 1986, and shortly after that the South Asian population began to boom. Since 1990, the Asian Indian population in King County has tripled every decade. Today, 1 in 10 Redmond residents is Indian. 
+    </div>
+    <div id="internationalDistrict" class="info-pane">
+      <div class="close-div">
+        <a id="microsoftCampus" class="close-reveal-modal pane">×</a>
+      </div>
+          The International District contains the traditional Chinatown, Japantown, and Little Saigon. The exact boundaries have evolved over the years to reflect displacement, fires, and other shifting forces in urban development. Today, the area West of I-5 is predominantly Chinese, while the eastern area is primarily Vietnamese. Like manycChinatowns, a large percentage of the Chinese character of the International District today is retail and commercial, with many Chinese-speaking families today located in Bellevue and other suburban areas.
+    </div>
+  </div>  
+      <div id="internationalDistrict" class="info-pane">
+      <div class="close-div">
+        <a id="internationalDistrict" class="close-reveal-modal pane">×</a>
+      </div>
+          The International District contains the traditional Chinatown, Japantown, and Little Saigon. The exact boundaries have evolved over the years to reflect displacement, fires, and other shifting forces in urban development. Today, the area West of I-5 is predominantly Chinese, while the eastern area is primarily Vietnamese. Like manycChinatowns, a large percentage of the Chinese character of the International District today is retail and commercial, with many Chinese-speaking families today located in Bellevue and other suburban areas.
+    </div>
+  
+  <div id="rainierValley" class="info-pane">
+      <div class="close-div">
+        <a id="rainierValley" class="close-reveal-modal pane">×</a>
+      </div>
+          Rainier Valley is one of the most ethnically diverse areas in the Pacific Northwest. Rainier Avenue, the major commerical corridor, swings back and forth from Asian to African shops and restaurants. Moreso than areas like Chinatown or the Central District, the Rainier Valley is a patchwork of neighborhoods containing both the restaurants and the language-speaking homes of the Asian and African communities. 
+  </div>
+
+    <div id="university" class="info-pane">
+      <div class="close-div">
+        <a id="university" class="close-reveal-modal pane">×</a>
+      </div>
+          University Avenue is one of the best commercial strips for ethnic restaurants in the city, but perhaps the most striking thing about the University District is the stratification of Asian languages represented near campus. Chinese speaking and Korean speaking homes dominate, but Vietnamese households are relatively sparse. This could be due to smaller Vietnamese enrollments at UW, or it could mean Vietnamese speakers are living in locations further from campus. 
+    </div>-->
+  </div>  
+
+  <section id="startHere">
+    <div id="anno">
+    </div>
+    <div class="first-section">
+      <div id="mapsBox">
+        <div class="maps-explore">
+          <!-- <div class="map-title">
+            Restaurants 
+          </div> -->
+          <div class="mapcontent" id="mapYelp">
+          </div>
+        </div>
+<!--         <div class="maps-explore">
+          <div class="map-title">
+            Languages
+          </div>
+          <div class="mapcontent" id="mapLanguage">           
+          </div>
+        </div> -->
+        <div id="first-legend">
+          <div class="legend-item ethnicity">
+            <svg height="30" width="30" padding="5px">  
+              <circle cx="15" cy="22" r="7" fill="rgba(25,25,25,.2)" stroke="white" stroke-width="1"></circle>
+              <circle cx="15" cy="17" r="12" stroke="rgba(255,255,255,.6)" stroke-width="1" fill="rgba(25,25,25,.2)"></circle>
+              <circle cx="15" cy="25" r="3" fill="rgba(25,25,25,.1)" stroke="rgba(255,255,255,.6)" stroke-width="1"></circle>
+            </svg>
+            <div class="legend-title">
+            # of Reviews
+            </div>
+          </div>
+
+          <div class="legend-item ethnicity">
+            <div class="legend-check">
+            <input type="checkbox" checked=checked class="filter checkbox-yelp" name="filter" value="restaurants" />
+            </div>
+            <div class="legend-symbol">
+              <div class="restaurants">
+              </div>
+            </div>
+            <div class="legend-title">
+              Restaurants
+            </div>
+          </div>
+          <div class="legend-item ethnicity">
+            <div class="legend-check">
+            <input type="checkbox" checked=checked class="filter checkbox-yelp" name="filter" value="grocery" />
+            </div>
+            <div class="legend-symbol">
+               <div class="grocery">
+               </div>
+            </div>
+            <div class="legend-title">
+              Grocery
+            </div>
+          </div>
+          <div class="legend-item ethnicity">
+            <div class="legend-check">
+            <input type="checkbox" checked=checked class="filter checkbox-yelp" name="filter" value="active" />
+            </div>
+            <div class="legend-symbol">
+               <div class="active">
+               </div>
+            </div>
+            <div class="legend-title">
+              Fitness/Recreation
+            </div>
+          </div> 
+          <div class="legend-item ethnicity">
+            <div class="legend-check">
+            <input type="checkbox" checked=checked class="filter checkbox-yelp" name="filter" value="localservices,shopping" />
+            </div>
+            <div class="legend-symbol">
+               <div class="shopping">
+               </div>
+            </div>
+            <div class="legend-title">
+              Shopping
+            </div>
+          </div>
+          <div class="legend-item ethnicity">
+            <div class="legend-check">
+            <input type="checkbox" checked=checked class="filter checkbox-yelp" name="filter" value="nightlife" />
+            </div>
+            <div class="legend-symbol">
+               <div class="nightlife">
+               </div>
+            </div>
+            <div class="legend-title">
+              Nightlife
+            </div>
+          </div>
+     
+
+          <div class="legend-item ethnicity">
+            <div class="legend-check">
+            <input type="checkbox" checked=checked class="filter checkbox-yelp" name="filter" value="financialservices,professional" />
+            </div>
+            <div class="legend-symbol">
+               <div class="professional">
+               </div>
+            </div>
+            <div class="legend-title">
+              Prof. Services
+            </div>
+          </div> 
+          <div class="legend-item ethnicity">
+            <div class="legend-check">
+            <input type="checkbox" checked=checked class="filter checkbox-yelp" name="filter" value="civic" />
+            </div>
+            <div class="legend-symbol">
+               <div class="civic">
+               </div>
+            </div>
+            <div class="legend-title">
+              Civic
+            </div>
+          </div> 
+          <div class="legend-item ethnicity">
+            <div class="legend-check">
+            <input type="checkbox" checked=checked class="filter toggle" id="toggle" name="toggle" value="toggle" />
+            </div>
+            <div class="legend-title">
+               <div class="">
+               Select 
+               </div>
+            </div>
+            <div class="legend-title">
+              All
+            </div>
+          </div>                               
+        </div>
+        <div id="second-legend">
+        <div class="credits">
+        created by <a href="http://www.bradrbarnett.com" class="brad">Brad Barnett</a> 
+        </div>
+        <div class="credits"> | <a href="http://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> | © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> © | <a href="http://cartodb.com/attributions">CartoDB</a></div>  
+        </div> 
+      </div>
+    </div>
+  </section>
+
+
+  <script type="text/javascript" src="http://maps.stamen.com/js/tile.stamen.js?v1.2.4"></script>
+  <script src="js/L.Map.Sync.js"> </script>
+  <script src="js/leaflet.label.js"></script>
+  
+  <script src="js/Leaflet.Coordinates-0.1.4.min.js"></script>
+  <script src="http://d3js.org/topojson.v1.min.js"></script>
+  <script type="text/javascript" src="d3/d3.min.js"></script>
+  <script type="text/javascript" src="http://maps.stamen.com/js/tile.stamen.js?v1.2.4"></script>
+  <link rel="stylesheet" type="text/css" href="foundation/css/app.css">
+    <script>
+  
+
+
+
+ 
+</script>
+<script src="js/foundation.min.js"></script>
+<script>
+  $(document).foundation();
+  $(document).ready(function(){$('#myModal').foundation('reveal', 'open')}); 
+  $(".pane").click(function() {
+    $(this).parent().parent().hide();
+  });
+</script> 
+<script type="text/javascript" src="js/skrollr.min.js"></script>
+<!-- <script type="text/javascript">
+    $(".story").click(function() {
+      var activeId = this.id;
+      var section = $("section#" + activeId);
+      var idOffset = $(section).offset();
+      var idOffsetTop = idOffset.top - 35;
+      console.log(idOffset.top);  
+      $('html, body').animate({
+        scrollTop: idOffsetTop}, 800, "easeInOutSine" );
+      return false;
+    });    
+</script> -->
+</body>
+</html>

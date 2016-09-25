@@ -1,9 +1,205 @@
+body {
+    font-family: 'Inconsolata', sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+#places-info {
+    position: absolute;
+    display: block;
+    background-color: transparent;
+    height: 50px;
+    width: 100%;
+    left: 0;
+    bottom: 25px;
+    opacity: 0;
+    text-align: center;
+    z-index: 1001;
+}
+
+.places-info-svg {
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 5px;
+    text-anchor: middle;
+}
+
 #map {
-    height: 500px;
+    min-height: 800px;
+    height: 100%;
     width: 100%;
 }
 
-.ten-min {
+#controls {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: white;
+    opacity: 0.8;
+    padding: 10px;
+    border-radius: 2px;
+    z-index:1001;
+}
+
+div.distance {
+    display: inline;
+    color: #28c5c9;
+    font-weight: 700;
+}
+
+div.slider-container{
+    display: block;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.total-places-text {
+    text-align: center;
+    font-weight: 600;
+    font-size: 400%;
+    fill: #28c5c9;
+    text-anchor: middle;
+}
+
+.total-places-text-supportive {
+    text-align: center;
+    font-weight: 600;
+    text-anchor: middle;
+}
+
+#isochrone-slider {
+    width: 200px;
+}
+
+.layers-chart-container {
+    width: 300px;
+    height: 200px;
+    display: block;
+}
+
+
+#layers {
+    float: left;
+    width: 175px;
+    display: inline-block;
+}
+
+#bar-chart {
+    float: left;
+    height: 150px;
+    width: 125px;
+    display: inline-block;
+}
+
+.geojson-hide {
+    fill: black;
+    opacity: 0;
+}
+
+.geojson-show {
     fill: gray;
-    opacity: 0.5;
+    opacity: 0.25;
+    stroke-width: 1;
+    stroke:black;
+}
+
+.selected {
+    opacity: 1;
+}
+
+.unselected {
+    fill: gray;
+    /*opacity: 0.8;*/
+}
+
+.legend-symbol {
+    width: 1rem;
+    height: 1rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.chart-bars {
+    fill: lightgray;
+    stroke: dimgray;
+    stroke-width: 0.75;
+}
+
+.professional {
+    /*width: 2rem;*/
+    /*height: 1rem;*/
+    /*display: inline-block;*/
+    /*font-size: 120%;*/
+    background-color:  rgba(161, 133, 80, 0.42);
+    fill:  rgba(161, 133, 80, 0.42);
+
+
+}
+
+.grocery {
+    /*width: 2rem;*/
+    /*height: 1rem;*/
+    /*display: inline-block;*/
+    /*font-size: 120%;*/
+    background-color: yellow;
+    fill: yellow;
+
+}
+
+.active {
+    /*width: 2rem;*/
+    /*height: 1rem;*/
+    /*display: inline-block;*/
+    /*font-size: 120%;*/
+    background-color:  rgba(255, 160, 19,1);
+    fill:  rgba(255, 160, 19,1);
+}
+
+.nightlife,.bars {
+    /*width: 2rem;*/
+    /*height: 1rem;*/
+    /*display: inline-block;*/
+    /*font-size: 120%;*/
+    background-color: rgb(95, 220, 153);
+    fill: rgb(95, 220, 153);
+}
+
+.shopping {
+    /*width: 2rem;*/
+    /*height: 1rem;*/
+    /*display: inline-block;*/
+    /*font-size: 120%;*/
+    background-color: rgba(255, 71, 25,1);
+    fill: rgba(255, 71, 25,1);
+}
+
+.restaurants {
+    /*width: 2rem;*/
+    /*height: 1rem;*/
+    /*display: inline-block;*/
+    /*font-size: 120%;*/
+    background-color: rgb(230, 139, 230);
+    fill: rgb(230, 139, 230);
+
+}
+
+.civic {
+    /*width: 2rem;*/
+    /*height: 1rem;*/
+    /*display: inline-block;*/
+    /*font-size: 120%;*/
+    background-color: rgba(0, 138, 230,1);
+    fill: rgba(0, 138, 230,1);
+}
+
+.ethnicity div {
+    display: inline-block;
+}
+
+.ethnicity {
+    margin-bottom: 5px;
+}
+
+.ethnicity * {
+    vertical-align: middle;
+    font-size: 80%;
 }

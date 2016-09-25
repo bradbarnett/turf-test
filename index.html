@@ -3,16 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="style.css" />    <!--<link type="text/css" rel="stylesheet" href="../leaflet/leaflet.css">-->
-    <link rel="stylesheet" href="https://npmcdn.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />    <!--<link type="text/css" rel="stylesheet" href="../leaflet/leaflet.css">-->
+    <link rel="stylesheet" href="style.css"/>
+    <!--<link type="text/css" rel="stylesheet" href="../leaflet/leaflet.css">-->
+    <link rel="stylesheet" href="../leaflet/leaflet.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata:300,400,500,600,700" rel="stylesheet">
+    <!--<link type="text/css" rel="stylesheet" href="../leaflet/leaflet.css">-->
 </head>
 <body>
-Testing
-<div id="map"></div>
+
+
+<div id="controls">
+    <div id="total-places"></div>
+    <div class="layers-chart-container">
+        <div id="layers">
+            <div class="legend-item ethnicity">
+                <div class="legend-check"><input type="checkbox" checked=checked class="filter checkbox-yelp"
+                                                 name="filter" value="restaurants"/></div>
+                <div class="legend-symbol restaurants"></div>
+                <div class="legend-title">Restaurants</div>
+            </div>
+            <div class="legend-item ethnicity">
+                <div class="legend-check"><input type="checkbox" checked=checked class="filter checkbox-yelp"
+                                                 name="filter" value="grocery"/></div>
+                <div class="legend-symbol grocery"></div>
+                <div class="legend-title">Grocery</div>
+            </div>
+            <div class="legend-item ethnicity">
+                <div class="legend-check"><input type="checkbox" checked=checked class="filter checkbox-yelp"
+                                                 name="filter" value="active"/></div>
+                <div class="legend-symbol active"></div>
+                <div class="legend-title">Fitness/Recreation</div>
+            </div>
+            <div class="legend-item ethnicity">
+                <div class="legend-check"><input type="checkbox" checked=checked class="filter checkbox-yelp"
+                                                 name="filter" value="localservices,shopping"/></div>
+                <div class="legend-symbol shopping"></div>
+                <div class="legend-title">Shopping</div>
+            </div>
+            <div class="legend-item ethnicity">
+                <div class="legend-check"><input type="checkbox" checked=checked class="filter checkbox-yelp"
+                                                 name="filter" value="nightlife"/></div>
+                <div class="legend-symbol nightlife"></div>
+                <div class="legend-title">Nightlife</div>
+            </div>
+            <div class="legend-item ethnicity">
+                <div class="legend-check"><input type="checkbox" checked=checked class="filter checkbox-yelp"
+                                                 name="filter" value="financialservices,professional"/></div>
+                <div class="legend-symbol professional"></div>
+                <div class="legend-title">Prof. Services</div>
+            </div>
+            <div class="legend-item ethnicity">
+                <div class="legend-check"><input type="checkbox" checked=checked class="filter checkbox-yelp"
+                                                 name="filter" value="civic"/></div>
+                <div class="legend-symbol civic"></div>
+                <div class="legend-title">Civic</div>
+            </div>
+            <div class="legend-item ethnicity">
+                <div class="legend-check">
+                    <input type="checkbox" checked=checked class="filter toggle" id="toggle" name="toggle"
+                           value="toggle"/>
+                </div>
+                <div class="legend-title">
+                    Select All
+                </div>
+            </div>
+        </div>
+        <div id="bar-chart"></div>
+    </div>
+    <div class="label">
+        Walking Distance from Transit:
+        <div class="distance">0 min</div>
+    </div>
+    <div class="slider-container">
+
+        <input id="isochrone-slider" type="range" min="0" max="15" step="1" value="0"/>
+    </div>
+</div>
+<div id="places-info"></div>
+<div id="map">
+</div>
+
 <script src="../leaflet/leaflet.js"></script>
 <script src="../jquery/jquery.js"></script>
 <script src="../turf/turf.js"></script>
 <script src="../d3/d3.js"></script>
-<script src="main.js"></script>
+<script src="../d3-queue/d3-queue.js"></script>
+<!--<script src="../d3-queue/d3-queue.js"></script>-->
+<script src="main2.js"></script>
+<script src="pieLayout.js"></script>
 </body>
 </html>

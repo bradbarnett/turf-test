@@ -1,0 +1,14 @@
+{
+"name": "South Station",
+"lines": [
+{"red": 0},
+{"green": 0},
+{"orange": 0},
+{"blue": 0},
+{"silver": 0}]
+,
+"isochrones":
+[
+ {"five-min": {coordinates}},
+  {"ten-min": {coordinates}}
+  ]
