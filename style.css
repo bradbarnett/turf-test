@@ -1,7 +1,13 @@
+html {
+    height: 100%;
+}
+
 body {
     font-family: 'Inconsolata', sans-serif;
     font-size: 16px;
     margin: 0;
+    position: relative;
+    height: inherit;
 }
 
 #places-info {
@@ -23,9 +29,10 @@ body {
     text-anchor: middle;
 }
 
-#map {
-    min-height: 800px;
-    height: 100%;
+#map{
+    position: absolute;
+    top: 0;
+    bottom: 0;
     width: 100%;
 }
 
@@ -50,6 +57,14 @@ div.slider-container{
     display: block;
     text-align: center;
     margin: 25px 0;
+}
+
+div#distance-station {
+    text-align: center;
+}
+
+div.station {
+    fill: #28c5c9;
 }
 
 .total-places-text {
@@ -96,8 +111,8 @@ div.slider-container{
 }
 
 .geojson-show {
-    fill: gray;
-    opacity: 0.25;
+    fill: #b9c8cc;
+    opacity: 0.5;
     stroke-width: 1;
     stroke:black;
 }
@@ -202,4 +217,16 @@ div.slider-container{
 .ethnicity * {
     vertical-align: middle;
     font-size: 80%;
+}
+
+input[type='checkbox'] {
+    font-size: 100%;
+}
+
+.on {
+    display: initial;
+}
+
+.off {
+    display: none;
 }

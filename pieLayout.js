@@ -33,20 +33,40 @@ var chartYScale = d3.scale.linear().range([chartSvgHeight, 0]);
 //     .ticks(10);
 
 
-function updateBars() {
 
-    var chartData =
+
+function updateBars() {
+  var chartData =
         [
-            {"name": "restaurants", "value": _totalRestaurants},
-            {"name": "grocery", "value": _totalGrocery},
-            {"name": "active", "value": _totalActive},
-            {"name": "shopping", "value": _totalShopping},
-            {"name": "bars", "value": _totalBars},
-            {"name": "professional", "value": _totalProfessionalServices},
-            {"name": "civic", "value": _totalCivic}
+            {"name": "restaurants", "status": true, "value": _totalRestaurants},
+            {"name": "grocery", "status": true, "value": _totalGrocery},
+            {"name": "active", "status": true, "value": _totalActive},
+            {"name": "shopping", "status": true, "value": _totalShopping},
+            {"name": "bars", "status": true, "value": _totalBars},
+            {"name": "professional", "status": true, "value": _totalProfessionalServices},
+            {"name": "civic", "status": true, "value": _totalCivic}
         ];
+
+
+    var clickedItem = _clickedItem;
+
+    if (typeof clickedItem !== 'undefined') {
+        chartData.forEach(function(d) {
+            if (d.name == clickedItem['value']) {
+                d.status = clickedItem.status
+            }
+            if (d.status == false) {
+                d.value = 0;
+            }
+
+        })
+    }
+
+
+
+    console.log(chartData);
     var sumUp = _totalPlaces;
-    var chartDataTotal = [{"name": "total", "value": _totalPlaces}];
+    var chartDataTotal = [{"name": "total", "status": true, "value": _totalPlaces}];
 
     chartXScale.domain([0, d3.max(chartData, function (d) {
         return d.value ;
@@ -65,6 +85,9 @@ function updateBars() {
     bar.transition()							//Initiate a transition on all elements in the update selection (all rects)
         .duration(500)
         .attr("class","chart-bars")
+        .attr("id",function(d) {
+            return d.name;
+        })
         .attr("x", function (d) {
             return 0;
         })
@@ -77,6 +100,55 @@ function updateBars() {
             return "translate(0," + translate + ")";
         });
 
+    // chartG.selectAll("rect").data(chartData).append("text")
+    //     .attr("x", barWidth / 2)
+    //     .attr("y",0)
+    //     .attr("dy", ".75em")
+    //     .text(function (d) {
+    //         return d.value;
+    //     });
+
+
+
+
+    var barText = chartG.selectAll(".bartext")
+        .data(chartData);
+
+    barText.enter().append("text")
+
+
+    barText.exit().remove();
+
+    barText.transition()							//Initiate a transition on all elements in the update selection (all rects)
+        .duration(500)
+        .attr("class", "bartext")
+        .attr("x", function(d) {
+            return chartSvgWidth - chartXScale(d.value) + 5
+        })
+        .attr("y",0)
+        .attr("dy", ".75em")
+        .attr("name",function(d) {
+            return d.name
+        })
+        .attr("transform", function (d, i) {
+            var translate = ((i * barWidth) + (7 * i));
+            return "translate(0," + translate + ")";
+        })
+        .attr("opacity",0)
+        .text(function (d) {
+            return d.value;
+        });
+
+    bar.on("mouseover", function(d) {
+        var text = barText.filter(function(t) {
+            return t.name == d.name;
+        })
+        text.attr("opacity",1);
+    })
+
+    bar.on("mouseout", function(d) {
+        barText.attr("opacity",0);
+    })
 
 
     totalG.selectAll("text").remove();
@@ -104,15 +176,7 @@ function updateBars() {
 updateBars();
 
 
-// bar.append("text")
-//     .attr("x", barWidth / 2)
-//     .attr("y", function (d) {
-//         return chartYScale(d.value) + 3;
-//     })
-//     .attr("dy", ".75em")
-//     .text(function (d) {
-//         return d.value;
-//     });
+
 
 
 function type(d) {
