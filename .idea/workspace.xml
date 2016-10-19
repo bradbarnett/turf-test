@@ -1,15 +1,141 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f74a6086-0539-4f7b-8285-43b7b81869cb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
+    <list default="true" id="f74a6086-0539-4f7b-8285-43b7b81869cb" name="Default" comment="lots of things">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data-processing/data.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data-processing/data2.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data-processing/nested-data.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data-processing/reduced_data.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data-processing/stripped_data2.geojson" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Airport.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Alewife.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Allston Street.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Andrew.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Aquarium.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Arlington.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Ashmont.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Assembly.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Babcock Street.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Back Bay.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Back Of The Hill.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Beachmont.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Beaconsfield.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Blandford Street.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Boston College.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Boston University Central.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Boston University East.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Boston University West.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Bowdoin.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Boylston.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Braintree.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Brandon Hall.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Brigham Circle.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Broadway.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Brookline Hills.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Brookline Village.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Butler.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Capen Street.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Cedar Grove.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Central Avenue.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Central.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Charles-MGH.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Chestnut Hill Avenue.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Chestnut Hill.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Chinatown.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Chiswick Road.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Cleveland Circle.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Community College.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Coolidge Corner.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Copley.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Davis.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Dean Road.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Downtown Crossing.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Eliot.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Englewood Avenue.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Fairbanks Street.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Fenway Park.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Fenwood Road.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Fields Corner.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Forest Hills.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Government Center.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Green Street.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Griggs Street.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Harvard Avenue.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Harvard.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Hawes Street.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Haymarket.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Heath Street.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Hynes Convention Center.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/JFK-UMass.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Jackson Square.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Kendall-MIT.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Kenmore.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Kent Street.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Lechmere.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Longwood Medical Area.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Longwood.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Malden Center.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Massachusetts Ave.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Mattapan.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Maverick.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Milton.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Mission Park.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Museum Of Fine Arts.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Newton Centre.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Newton Highlands.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/North Quincy.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/North Station.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Northeastern.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Oak Grove.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Orient Heights.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Packards Corner.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Park Street.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Pleasant Street.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Porter.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Prudential.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Quincy Adams.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Quincy Center.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Reservoir.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Revere Beach.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Riverside.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Riverway.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Roxbury Crossing.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Ruggles.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Saint Marys Street.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Saint Paul Street.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Savin Hill.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Science Park.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Shawmut.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/South Station.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/South Street.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/State.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Stony Brook.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Suffolk Downs.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Sullivan Square.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Summit Ave-Winchester St.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Sutherland Road.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Symphony.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Tappan Street.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Tufts Medical Center.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Valley Road.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Waban.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Warren Street.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Washington Square.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Washington Street.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Wellington.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Wollaston.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Wonderland.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Wood Island.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/Woodland.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/station-isochrones/composite-isochrones.geojson" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="turf-test.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
+    <ignored path="data-processing/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +143,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -26,11 +153,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="75" selection-start-line="15" selection-start-column="75" selection-end-line="15" selection-end-column="75" />
+            <state relative-caret-position="252">
+              <caret line="73" column="79" selection-start-line="73" selection-start-column="79" selection-end-line="73" selection-end-column="79" />
               <folding />
             </state>
           </provider>
@@ -39,63 +166,39 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="634">
-              <caret line="231" column="0" selection-start-line="231" selection-start-column="0" selection-end-line="231" selection-end-column="0" />
+            <state relative-caret-position="252">
+              <caret line="223" column="1" selection-start-line="223" selection-start-column="1" selection-end-line="223" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main2.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main2.js">
+      <file leaf-file-name="main3.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main3.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
+            <state relative-caret-position="119">
+              <caret line="515" column="30" selection-start-line="515" selection-start-column="30" selection-end-line="515" selection-end-column="30" />
               <folding>
-                <element signature="e#0#44#0" expanded="false" />
-                <marker date="1476910942874" expanded="true" signature="363:369" ph="©" />
+                <element signature="e#326#438#0" expanded="false" />
+                <element signature="e#508#1690#0" expanded="false" />
+                <element signature="e#4169#4350#0" expanded="false" />
+                <element signature="e#4364#4462#0" expanded="false" />
+                <element signature="n#!!block;n#pointsUpdate#0;n#!!block;n#runViz#0" expanded="false" />
+                <element signature="e#11393#12121#0" expanded="false" />
+                <element signature="e#13121#13261#0" expanded="false" />
+                <element signature="n#!!block;n#compareData#0;n#!!block;n#runViz#0" expanded="false" />
+                <element signature="n#!!block;n#calculateTotals#0;n#!!block;n#runViz#0" expanded="false" />
+                <element signature="n#!!block;n#showCircles#0;n#!!block;n#runViz#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pieLayout.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pieLayout.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#40#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="isochrones.geojson" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/isochrones.geojson">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40732">
-              <caret line="2396" column="26" selection-start-line="2396" selection-start-column="21" selection-end-line="2396" selection-end-column="26" />
+            <state relative-caret-position="225">
+              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -122,9 +225,12 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/process_isochrones.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/pieLayout.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/main2.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/main.js" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/pieLayout.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/process_results.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/main3.js" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -135,34 +241,45 @@
         <option value="$USER_HOME$/AppData/Local/Temp/seaport_cleaned.csv" />
         <option value="$PROJECT_DIR$/data/yelp-locations.geojson" />
         <option value="$PROJECT_DIR$/main.js" />
+        <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/data/fifteen-min.geojson" />
         <option value="$PROJECT_DIR$/index2.html" />
         <option value="$PROJECT_DIR$/data/zero-min.geojson" />
-        <option value="$PROJECT_DIR$/scratch.txt" />
         <option value="$PROJECT_DIR$/data/seaport-stations.geojson" />
         <option value="$PROJECT_DIR$/data/five-min.geojson" />
         <option value="$PROJECT_DIR$/data/isochrones.geojson" />
         <option value="$PROJECT_DIR$/data/isochrones/seaport-stations_2-min_WALK.geojson" />
         <option value="$PROJECT_DIR$/data/isochrones/isochrones.geojson" />
-        <option value="$PROJECT_DIR$/pieLayout.js" />
-        <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/../yelp-seaport/data.json" />
+        <option value="$PROJECT_DIR$/data/reduced_data.json" />
         <option value="$PROJECT_DIR$/main2.js" />
-        <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/process_results.js" />
+        <option value="$PROJECT_DIR$/data/stripped_data.geojson" />
+        <option value="$PROJECT_DIR$/data/nested-data.json" />
+        <option value="$PROJECT_DIR$/data/BLUE-GREEN.json" />
+        <option value="$PROJECT_DIR$/data/BLUE.json" />
+        <option value="$PROJECT_DIR$/data/composite-isochrones.geojson" />
+        <option value="$PROJECT_DIR$/data/Airport.json" />
+        <option value="$PROJECT_DIR$/process_isochrones.js" />
+        <option value="$PROJECT_DIR$/scratch.txt" />
+        <option value="$PROJECT_DIR$/data/MBTA-lines.json" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/pieLayout.js" />
+        <option value="$PROJECT_DIR$/main3.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1176" />
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="773" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -170,6 +287,15 @@
         <expanded-state>
           <State>
             <id />
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>JSON</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
           </State>
         </expanded-state>
         <selected-state>
@@ -205,7 +331,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -234,26 +359,44 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
+              <option name="myItemId" value="data-processing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="turf-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="turf-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path" value="C:/Program Files (x86)/nodejs/node" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/data-processing" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data-processing" />
       <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$/data/isochrones" />
       <recent name="C:\Users\bbarnett\Code\turf-test\data" />
@@ -265,6 +408,12 @@
     </key>
   </component>
   <component name="RunManager" selected="Node.js.server">
+    <configuration default="false" name="process_results.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="process_results.js" working-dir="$PROJECT_DIR$">
+      <method />
+    </configuration>
+    <configuration default="false" name="process_isochrones.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="process_isochrones.js" working-dir="$PROJECT_DIR$">
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -318,16 +467,20 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <configuration default="false" name="server" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" path-to-js-file="index.js" working-dir="$PROJECT_DIR$">
-      <profiling v8-profiler-path="" />
-      <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSProfilingRunConfigurationExtension">
-        <profiling v8-profiler-path="" />
-      </EXTENSION>
+    <configuration default="false" name="server" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="/usr/local/bin/node" path-to-js-file="index.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
-    <list size="1">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Node.js.server" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.process_results.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.process_isochrones.js" />
     </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.process_isochrones.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.process_results.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -351,25 +504,49 @@
       <workItem from="1474026573619" duration="737000" />
       <workItem from="1474071610993" duration="23819000" />
       <workItem from="1474653222784" duration="522000" />
-      <workItem from="1474712795962" duration="29654000" />
-      <workItem from="1476911268652" duration="1068000" />
+      <workItem from="1474712795962" duration="30349000" />
+      <workItem from="1474970604819" duration="778000" />
+      <workItem from="1475415018987" duration="282000" />
+      <workItem from="1475415430773" duration="4666000" />
+      <workItem from="1475674023001" duration="37344000" />
+      <workItem from="1476381863985" duration="1894000" />
+      <workItem from="1476740149583" duration="26644000" />
     </task>
+    <task id="LOCAL-00001" summary="lots of things">
+      <created>1476909714299</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1476909714299</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139608000" />
+    <option name="totallyTimeSpent" value="210843000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30295047" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25178713" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24329501" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29575402" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32854405" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -377,7 +554,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -410,164 +586,35 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lots of things" />
+    <option name="LAST_COMMIT_MESSAGE" value="lots of things" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/ten-min.geojson">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/yelp-locations.geojson">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/ten-min.geojson">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/yelp-locations.geojson">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/ten-min.geojson">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/index.html" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/seaport_cleaned.csv" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/mainscript.js" />
-    <entry file="file://$PROJECT_DIR$/node_modules/d3-queue/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/d3-queue/build/version.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1734">
-          <caret line="228" column="4" selection-start-line="228" selection-start-column="4" selection-end-line="228" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="140" column="34" selection-start-line="140" selection-start-column="34" selection-end-line="140" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/seaport_cleaned.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4170">
-          <caret line="278" column="62" selection-start-line="278" selection-start-column="44" selection-end-line="278" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/seaport-stations.geojson">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/five-min.geojson">
+    <entry file="file://$PROJECT_DIR$/data-processing/five-min.geojson">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="5" column="1143" selection-start-line="5" selection-start-column="1143" selection-end-line="5" selection-end-column="1143" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/ten-min.geojson">
+    <entry file="file://$PROJECT_DIR$/data-processing/ten-min.geojson">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="5" column="38043" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="38043" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/fifteen-min.geojson">
+    <entry file="file://$PROJECT_DIR$/data-processing/fifteen-min.geojson">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
           <caret line="45" column="5" selection-start-line="3" selection-start-column="3" selection-end-line="45" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/zero-min.geojson">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="37" column="5" selection-start-line="3" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -578,58 +625,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/isochrones/seaport-stations_4-min_WALK.geojson" />
-    <entry file="file://$PROJECT_DIR$/data/isochrones/seaport-stations_5-min_WALK.geojson" />
-    <entry file="file://$PROJECT_DIR$/data/isochrones/seaport-stations_6-min_WALK.geojson" />
-    <entry file="file://$PROJECT_DIR$/data/isochrones/seaport-stations_7-min_WALK.geojson" />
-    <entry file="file://$PROJECT_DIR$/data/isochrones/seaport-stations_8-min_WALK.geojson" />
-    <entry file="file://$PROJECT_DIR$/data/isochrones/seaport-stations_9-min_WALK.geojson" />
-    <entry file="file://$PROJECT_DIR$/data/isochrones/seaport-stations_11-min_WALK.geojson" />
-    <entry file="file://$PROJECT_DIR$/data/isochrones/seaport-stations_12-min_WALK.geojson" />
-    <entry file="file://$PROJECT_DIR$/data/isochrones/seaport-stations_13-min_WALK.geojson" />
-    <entry file="file://$PROJECT_DIR$/data/isochrones/seaport-stations_14-min_WALK.geojson" />
-    <entry file="file://$PROJECT_DIR$/data/isochrones/seaport-stations_15-min_WALK.geojson" />
-    <entry file="file://$PROJECT_DIR$/scratch.txt">
+    <entry file="file://$PROJECT_DIR$/data/isochrones/seaport-stations_4-min_WALK.geojson">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        <state relative-caret-position="15555">
+          <caret line="1248" column="5" selection-start-line="3" selection-start-column="4" selection-end-line="1248" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/isochrones/seaport-stations_1-min_WALK.geojson" />
-    <entry file="file://$PROJECT_DIR$/data/isochrones/seaport-stations_2-min_WALK.geojson" />
-    <entry file="file://$PROJECT_DIR$/data/isochrones/seaport-stations_3-min_WALK.geojson" />
-    <entry file="file://$PROJECT_DIR$/data/yelp-locations.geojson">
+    <entry file="file://$PROJECT_DIR$/data/isochrones/seaport-stations_5-min_WALK.geojson">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        <state relative-caret-position="367">
+          <caret line="1512" column="5" selection-start-line="3" selection-start-column="3" selection-end-line="1512" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pieLayout.js">
+    <entry file="file://$PROJECT_DIR$/data/isochrones/seaport-stations_6-min_WALK.geojson">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="15">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/isochrones/seaport-stations_10-min_WALK.geojson" />
-    <entry file="file://$PROJECT_DIR$/data/isochrones.geojson">
+    <entry file="file://$PROJECT_DIR$/data/isochrones/seaport-stations_7-min_WALK.geojson">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="1872" column="5" selection-start-line="3" selection-start-column="4" selection-end-line="1872" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/isochrones/seaport-stations_8-min_WALK.geojson">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="2005" column="15" selection-start-line="2005" selection-start-column="15" selection-end-line="2005" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/isochrones/seaport-stations_9-min_WALK.geojson">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="2268" column="5" selection-start-line="3" selection-start-column="3" selection-end-line="2268" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/isochrones/seaport-stations_11-min_WALK.geojson">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="2488" column="5" selection-start-line="3" selection-start-column="4" selection-end-line="2488" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/isochrones/seaport-stations_12-min_WALK.geojson">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="2376" column="5" selection-start-line="3" selection-start-column="3" selection-end-line="2376" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/isochrones/seaport-stations_13-min_WALK.geojson">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="2454" column="5" selection-start-line="3" selection-start-column="2" selection-end-line="2454" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/isochrones/seaport-stations_14-min_WALK.geojson">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="2576" column="5" selection-start-line="3" selection-start-column="0" selection-end-line="2576" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/isochrones/seaport-stations_15-min_WALK.geojson">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="2726" column="5" selection-start-line="3" selection-start-column="0" selection-end-line="2726" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/isochrones/seaport-stations_1-min_WALK.geojson">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="158" column="0" selection-start-line="158" selection-start-column="0" selection-end-line="280" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/isochrones/seaport-stations_2-min_WALK.geojson">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="608" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/isochrones/seaport-stations_3-min_WALK.geojson">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="926" column="5" selection-start-line="3" selection-start-column="3" selection-end-line="926" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-processing/isochrones.geojson">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/isochrones.geojson">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40732">
-          <caret line="2396" column="26" selection-start-line="2396" selection-start-column="21" selection-end-line="2396" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -640,45 +737,210 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/../yelp-seaport/data.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        <state relative-caret-position="199">
+          <caret line="0" column="81195" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="478240" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/isochrones/seaport-stations_10-min_WALK.geojson">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36210">
+          <caret line="2414" column="7" selection-start-line="2414" selection-start-column="7" selection-end-line="2414" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/turf/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../yelp-boston/small-grid.geojson">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-processing/data2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-processing/stripped_data2.geojson">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="0" column="1385398" selection-start-line="0" selection-start-column="1385398" selection-end-line="0" selection-end-column="1385398" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-processing/yelp-locations.geojson">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/stripped_data.geojson">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="923" selection-start-line="0" selection-start-column="923" selection-end-line="0" selection-end-column="923" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/BLUE-GREEN.json" />
+    <entry file="file://$PROJECT_DIR$/data/[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object].json" />
+    <entry file="file://$PROJECT_DIR$/process_results.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/BLUE.json" />
+    <entry file="file://$PROJECT_DIR$/data/composite-isochrones.geojson" />
+    <entry file="file://$PROJECT_DIR$/data-processing/nested-data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-531078">
+          <caret line="0" column="6627653" selection-start-line="0" selection-start-column="6627653" selection-end-line="0" selection-end-column="6627653" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/Airport.json" />
+    <entry file="file://$PROJECT_DIR$/main2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2655">
+          <caret line="179" column="0" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scratch.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/process_isochrones.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="44" column="10" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/station-isochrones/Downtown Crossing.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-processing/reduced_data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="0" column="1872" selection-start-line="0" selection-start-column="1872" selection-end-line="0" selection-end-column="1872" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/MBTA-lines.geojson">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/MBTA_Rail.geojson">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="231" column="0" selection-start-line="231" selection-start-column="0" selection-end-line="231" selection-end-column="0" />
+        <state relative-caret-position="252">
+          <caret line="223" column="1" selection-start-line="223" selection-start-column="1" selection-end-line="223" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
+    <entry file="file://$PROJECT_DIR$/pieLayout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
+        <state relative-caret-position="139">
+          <caret line="125" column="59" selection-start-line="125" selection-start-column="59" selection-end-line="125" selection-end-column="59" />
           <folding>
-            <element signature="e#0#44#0" expanded="false" />
-            <marker date="1476910942874" expanded="true" signature="363:369" ph="©" />
+            <element signature="e#0#40#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-processing/zero-min.geojson">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="37" column="5" selection-start-line="3" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-processing/data.json">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-processing/isochrones.geojson">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3693">
+          <caret line="2376" column="9" selection-start-line="2376" selection-start-column="9" selection-end-line="2376" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="75" selection-start-line="15" selection-start-column="75" selection-end-line="15" selection-end-column="75" />
+        <state relative-caret-position="252">
+          <caret line="73" column="79" selection-start-line="73" selection-start-column="79" selection-end-line="73" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="515" column="30" selection-start-line="515" selection-start-column="30" selection-end-line="515" selection-end-column="30" />
+          <folding>
+            <element signature="e#326#438#0" expanded="false" />
+            <element signature="e#508#1690#0" expanded="false" />
+            <element signature="e#4169#4350#0" expanded="false" />
+            <element signature="e#4364#4462#0" expanded="false" />
+            <element signature="n#!!block;n#pointsUpdate#0;n#!!block;n#runViz#0" expanded="false" />
+            <element signature="e#11393#12121#0" expanded="false" />
+            <element signature="e#13121#13261#0" expanded="false" />
+            <element signature="n#!!block;n#compareData#0;n#!!block;n#runViz#0" expanded="false" />
+            <element signature="n#!!block;n#calculateTotals#0;n#!!block;n#runViz#0" expanded="false" />
+            <element signature="n#!!block;n#showCircles#0;n#!!block;n#runViz#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
           <folding />
         </state>
       </provider>
