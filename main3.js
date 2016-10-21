@@ -1,6 +1,8 @@
 /**
  * Created by bbarnett on 8/23/2016.
  */
+console.log(d3);
+
 
 // Create leaflet map
 var map = new L.Map("map", {
@@ -17,8 +19,11 @@ L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
     maxZoom: 19
 }).addTo(map);
 
+var Shared = new Shared();
+var urlPath = Shared.getUrl();
 
-$.getJSON("/data/MBTA-lines.geojson", function (data) {
+
+$.getJSON(urlPath + "/data/MBTA-lines.geojson", function (data) {
     // add GeoJSON layer to the map once the file is loaded
     L.geoJson(data, {
         style: function (feature) {
@@ -85,8 +90,8 @@ var width = window.innerWidth,
 map._initPathRoot();
 
 //Load data, then call runViz
-d3_queue.queue()
-    .defer(d3.json, "data/stripped_data.geojson")
+d3.queue()
+    .defer(d3.json,urlPath+"/data/stripped_data.geojson")
     .await(runViz);
 
 //Set up map svg and annotation svg
@@ -99,6 +104,7 @@ var reviewsText = placeInfoSvg.append("text");
 
 //Create circles on map
 function runViz(error, points) {
+    console.log("done");
     drawIsochrones(_stationName, function () {
         changeIsochrone();
         showIsochrone();
@@ -126,7 +132,7 @@ function runViz(error, points) {
         }
     }
 
-    $.getJSON("/data/MBTA_Rail.geojson", function (data) {
+    $.getJSON(urlPath +"/data/MBTA_Rail.geojson", function (data) {
         // add GeoJSON layer to the map once the file is loaded
         railStations = L.geoJson(data, {
             pointToLayer: function (feature, latlng) {
@@ -383,7 +389,7 @@ function runViz(error, points) {
     var _points = pointData;
 
     function drawIsochrones(_stationName, callback) {
-        var path = "data/station-isochrones/" + _stationName + ".json";
+        var path = urlPath + "/data/station-isochrones/" + _stationName + ".json";
         isochroneGroups[_stationName] = isochronesG.append("g").attr("id", _stationName);
         d3.json(path, function (error, json) {
             var geojson = json.features;
